@@ -28,7 +28,7 @@ This project includes several files; three require your attention:
 
 - `questions.js`: The primary file you'll edit, containing instructions for the exercises.
 - `data.js`: Provides the data needed for the exercises. Feel free to review it, but please do not modify it.
-- `ex-test.js`: Contains test cases. Your goal is to pass all these tests. Avoid modifying this file.
+- `ex.test.js`: Contains test cases. Your goal is to pass all these tests. Avoid modifying this file.
 
 ### Check your work
 
