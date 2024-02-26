@@ -161,7 +161,7 @@ describe("Exercise 9: analyzeMarks Function", () => {
   });
 
   test("handles a single subject", () => {
-    expect(analyzeMarks({ Math: 100 })).toEqual([100, 100, 100.0]);
+    expect(analyzeMarks({ Math: 100 })).toEqual([100, 100, 100]);
   });
 
   test("returns [0, 0, 0] for an empty object", () => {
