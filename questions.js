@@ -160,10 +160,10 @@ function animalClassify(type, weight) {
  *
  * The function should return a string describing the person. If the person has a hobby,
  * the return string should be formatted as:
- * "[name] is an [age]-year-old [man|woman]. (He|She) likes [hobby]!"
+ * "[name] is a [age]-year-old [man|woman]. (He|She) likes [hobby]!"
  *
  * If the person does not have a hobby attribute, the return string should be:
- * "[name] is an [age]-year-old [man|woman]. (He|She) has no hobbies."
+ * "[name] is a [age]-year-old [man|woman]. (He|She) has no hobbies."
  *
  * Ensure that the description matches the gender specified in the `gender` attribute.
  *
