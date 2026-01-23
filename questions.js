@@ -68,7 +68,7 @@ function greeting(name, time) {
  * - If `val` is nullish (null or undefined), return "Your input is a nullish value."
  * - If `val` is falsy (but not nullish), return "Your input is a falsy value."
  * - If `val` is truthy, return "Your input is a truthy value."
- *
+ * - Hint: In this course, prefer strict equality (===, !==) for clarity and safety.
  *
  * @param {any} val - The value to check.
  * @return {string} A message indicating whether the value is truthy, falsy, or nullish.
@@ -85,7 +85,7 @@ function checkValue(val) {
  * Assume the sentence contains only letters and spaces (no digits, punctuation, or special characters).
  *
  * Example: "Hello My World" should return [5, 2, 5].
- *
+ * Remark: If input is an empty string, return an empty array.
  * @param {string} sentence - A sentence consisting of words separated by spaces.
  * @return {number[]} An array of numbers representing the length of each word in the sentence.
  */
